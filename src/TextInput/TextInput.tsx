@@ -38,7 +38,7 @@ const InnerTextInput = React.forwardRef<HTMLInputElement, TextInputInnerProps>(
           data-light={light}
           data-padding-left={!!elementLeft}
           data-background={hasBackground}
-          value={value ?? ''}
+          value={value}
           {...rest}
           ref={ref}
         />
